@@ -52,6 +52,7 @@ KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := latest
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
